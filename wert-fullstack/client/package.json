@@ -8,7 +8,7 @@
     "start": "serve -s dist"
   },
   "dependencies": {
-    "@wert-io/widget-initializer": "^1.0.0",
+    "@wert-io/widget-initializer": "^6.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "uuid": "^9.0.0",
