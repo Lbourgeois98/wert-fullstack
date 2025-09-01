@@ -1,0 +1,14 @@
+{
+  "name": "wert-fullstack",
+  "private": true,
+  "scripts": {
+    "install-client": "cd client && npm install",
+    "install-server": "cd server && npm install",
+    "build-client": "cd client && npm run build",
+    "postinstall": "npm run install-client && npm run build-client && npm run install-server",
+    "start": "node server/server.js"
+  },
+  "dependencies": {
+    "@wert-io/widget-initializer": "^6.8.1"
+  }
+}
